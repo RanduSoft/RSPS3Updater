@@ -27,6 +27,8 @@ options:
                         Number of threads used for downloading. Between 1 and 32
 ```
 
+You can also use the binaries available [here](https://github.com/rursache/RSPS3Updater/releases/latest)
+
 ## Example
 ```
 RSPS3Updater.exe -g ./ids -d ./Updates -t 8
