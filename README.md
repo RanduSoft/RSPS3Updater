@@ -12,7 +12,7 @@ python -m pip install requests
 ```
 
 ## Usage
-Run `python .\main.py -h` to get the latest help
+Run `python main.py -h` to get the latest help
 
 ```
 options:
@@ -31,14 +31,14 @@ You can also use the binaries available [here](https://github.com/rursache/RSPS3
 
 ## Example
 ```
-RSPS3Updater.exe -g ./ids -d ./Updates -t 8
+RSPS3Updater.exe -g ids -d Updates -t 8
 ```
 This will download all the updates for the game ids inside the `ids` file and save the `.pkg` files inside a `Updates` directory. Downloading will be done on `8 threads`
 
 ## Building
 Install and use `pyinstaller` to obtain a binary:
 ```
-pyinstaller --onefile .\main.py
+pyinstaller --onefile main.py
 ```
 
 ## Thanks
